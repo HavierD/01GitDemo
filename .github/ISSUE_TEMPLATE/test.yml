@@ -15,12 +15,12 @@ body:
         ## User Story
         <hr />
 
-  - type: hidden
-    id: user_story_heading
-    attributes:
-      value: |
-        ## User Story
-        <hr />
+#  - type: hidden
+#    id: user_story_heading
+#    attributes:
+#      value: |
+#        ## User Story
+#        <hr />
 
   - type: input
     id: as_a
