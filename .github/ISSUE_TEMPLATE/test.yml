@@ -81,6 +81,7 @@ body:
       label: PRs
       description: "PR links desc"
       value: |
+        <hr />
         1.
     validations:
       required: false
