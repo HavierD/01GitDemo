@@ -1,48 +1,23 @@
 name: Data disco feature
 description: Template for adding a feature
 title: "✨(FEATURE) "
-labels: []
-assignees: []
+labels: [ ]
+assignees: [ ]
 body:
   - type: markdown
     attributes:
       value: |
         ## Data Disco Feature Request
 
-  - type: markdown
+  - type: input
+    id: user_story
     attributes:
+      label: User Story
       value: |
-        ## User Story
         <hr />
-
-#  - type: hidden
-#    id: user_story_heading
-#    attributes:
-#      value: |
-#        ## User Story
-#        <hr />
-
-  - type: input
-    id: as_a
-    attributes:
-      label: "AS A"
-      placeholder: "e.g. data consumer / analyst / platform engineer"
-    validations:
-      required: true
-
-  - type: input
-    id: i_want
-    attributes:
-      label: "I WANT"
-      placeholder: "e.g. be able to search dataset by ..."
-    validations:
-      required: true
-
-  - type: input
-    id: so_that
-    attributes:
-      label: "SO THAT"
-      placeholder: "e.g. I can discover data faster / reduce manual work"
+        AS A  
+        I WANT 
+        SO THAT
     validations:
       required: true
 
@@ -51,10 +26,9 @@ body:
     attributes:
       label: Acceptance Criteria
       description: "acc cre description"
-      placeholder: |
-        1. (describe first acceptance criteria)
-        2. (describe second acceptance criteria)
-        3. (describe third acceptance criteria)
+      value: |
+        <hr />
+        1.
     validations:
       required: true
 
@@ -63,49 +37,37 @@ body:
     attributes:
       label: Feature Description
       description: "feature description des"
-      placeholder: |
-        1. (brief description point 1)
-        2. (brief description point 2)
-        3. (brief description point 3)
+      value: |
+        <hr />
+        1.
     validations:
-      required: false
+      required: true
 
   - type: textarea
     id: related_tickets
     attributes:
       label: Related Tickets
       description: "related"
-      placeholder: |
-        1. https://...
-        2. https://...
+      value: |
+        <hr />
+        1.
     validations:
-      required: false
-
-  - type: checkboxes
-    id: tasks
-    attributes:
-      label: Tasks
-      description: "tasks"
-      options:
-        - label: "..."
-          required: false
-        - label: "Notify Stakeholders (Please specify who needs to be notified after completion of this ticket, or remove this item if not applicable)"
-          required: false
-        - label: "Clean up any AWS resources created during backlog work"
-          required: false
-        - label: "DOD Link to checklist: https://utas.atlassian.net/wiki/spaces/IMOS/pages/488898620/Definition+of+Done+DOD"
-          required: false
+      required: true
 
   - type: textarea
-    id: stakeholders
+    id: standard tasks
     attributes:
-      label: Stakeholders to notify (if applicable)
-      description: "Please specify who needs to be notified after completion of this ticket, or remove this item if not applicable。"
-      placeholder: |
-        - Team/Person:
-        - Channel:
-    validations:
-      required: false
+      label: Tasks
+      description: "Please specify who needs to be notified after completion of this ticket, or remove this item if not applicable)"
+      value: |
+        <hr />
+        - Notify XXX
+        - Clean up any AWS resources created during backlog work
+        - DOD Link to checklist: https://utas.atlassian.net/wiki/spaces/IMOS/pages/488898620/Definition+of+Done+DOD
+      validations:
+        required: true
+
+
 
   - type: markdown
     attributes:
@@ -116,11 +78,10 @@ body:
   - type: textarea
     id: prs
     attributes:
-      label: PR Links
+      label: PRs
       description: "PR links desc"
-      placeholder: |
-        1. https://github.com/.../pull/123
-        2. (add another PR link here)
+      value: |
+        1.
     validations:
       required: false
 
@@ -129,9 +90,9 @@ body:
     attributes:
       label: Dependencies
       description: "dependencies descr"
-      placeholder: |
-        1. (dependency 1)
-        2. (dependency 2)
+      value: |
+        <hr />
+          1.
     validations:
       required: false
 
@@ -140,7 +101,8 @@ body:
     attributes:
       label: Demo
       description: "Demo desc"
-      placeholder: |
-        1. (demo steps or link)
+      value: |
+        <hr />
+        1.
     validations:
       required: false
