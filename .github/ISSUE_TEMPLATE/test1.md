@@ -1,5 +1,5 @@
 ---
-name: Data disco feature
+name: Data disco feature md
 about: Template for adding a feature
 title: ✨(FEATURE) 
 labels: ''
