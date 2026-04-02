@@ -1,0 +1,138 @@
+name: Data disco feature
+description: Template for adding a feature
+title: "✨(FEATURE) "
+labels: []
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Data Disco Feature Request
+
+  - type: markdown
+    attributes:
+      value: |
+        ## User Story
+
+  - type: input
+    id: as_a
+    attributes:
+      label: "AS A"
+      placeholder: "e.g. data consumer / analyst / platform engineer"
+    validations:
+      required: true
+
+  - type: input
+    id: i_want
+    attributes:
+      label: "I WANT"
+      placeholder: "e.g. be able to search dataset by ..."
+    validations:
+      required: true
+
+  - type: input
+    id: so_that
+    attributes:
+      label: "SO THAT"
+      placeholder: "e.g. I can discover data faster / reduce manual work"
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance Criteria
+      description: "acc cre description"
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    id: feature_description
+    attributes:
+      label: Feature Description
+      description: "feature description des"
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: false
+
+  - type: textarea
+    id: related_tickets
+    attributes:
+      label: Related Tickets
+      description: "related"
+      placeholder: |
+        1. https://...
+        2. https://...
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: tasks
+    attributes:
+      label: Tasks
+      description: "tasks"
+      options:
+        - label: "..."
+          required: false
+        - label: "Notify Stakeholders (Please specify who needs to be notified after completion of this ticket, or remove this item if not applicable)"
+          required: false
+        - label: "Clean up any AWS resources created during backlog work"
+          required: false
+        - label: "DOD Link to checklist: https://utas.atlassian.net/wiki/spaces/IMOS/pages/488898620/Definition+of+Done+DOD"
+          required: false
+
+  - type: textarea
+    id: stakeholders
+    attributes:
+      label: Stakeholders to notify (if applicable)
+      description: "Please specify who needs to be notified after completion of this ticket, or remove this item if not applicable。"
+      placeholder: |
+        - Team/Person:
+        - Channel:
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ## PRs
+        Pull Request (PR) Review Guidelines: https://utas.atlassian.net/wiki/spaces/IMOS/pages/488996931/Pull+Request+PR+Review+Guidelines
+
+  - type: textarea
+    id: prs
+    attributes:
+      label: PR Links
+      description: "PR links desc"
+      placeholder: |
+        1. https://github.com/.../pull/123
+        2.
+    validations:
+      required: false
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies
+      description: "dependencies descr"
+      placeholder: |
+        1.
+        2.
+    validations:
+      required: false
+
+  - type: textarea
+    id: demo
+    attributes:
+      label: Demo
+      description: "Demo desc"
+      placeholder: |
+        1.
+    validations:
+      required: false
