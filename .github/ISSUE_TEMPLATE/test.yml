@@ -57,10 +57,10 @@ body:
     attributes:
       label: Tasks
       description: "Please specify who needs to be notified after completion of this ticket, or remove this item if not applicable)"
-      value: "|
-- [ ] Notify Notify XXX
-- [ ] Clean up any AWS resources created during backlog work
-- [ ] DOD Link to checklist: https://utas.atlassian.net/wiki/spaces/IMOS/pages/488898620/Definition+of+Done+DOD"
+      value: |
+        - [ ] Notify Notify XXX
+        - [ ] Clean up any AWS resources created during backlog work
+        - [ ] DOD Link to checklist: https://utas.atlassian.net/wiki/spaces/IMOS/pages/488898620/Definition+of+Done+DOD
     validations:
       required: true
 
