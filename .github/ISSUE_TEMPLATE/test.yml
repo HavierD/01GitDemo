@@ -6,18 +6,17 @@ assignees: [ ]
 body:
   - type: markdown
     attributes:
-      value: |
+      value: "|
         ## Data Disco Feature Request
-
+"
   - type: textarea
     id: user_story
     attributes:
       label: User Story
-      value: |
-        ---
-        AS A  
-        I WANT 
-        SO THAT
+      placeholder: |
+        AS A  xx
+        I WANT xx
+        SO THAT xx
     validations:
       required: true
 
@@ -25,10 +24,9 @@ body:
     id: acceptance_criteria
     attributes:
       label: Acceptance Criteria
-      description: "acc cre description"
-      value: |
-        <hr />
-        1.
+      description: "This section should describe the conditions that must be met for this issue to be considered complete."
+      placeholder: |
+        This section should describe the conditions that must be met for this issue to be considered complete.
     validations:
       required: true
 
@@ -36,9 +34,9 @@ body:
     id: feature_description
     attributes:
       label: Feature Description
-      description: "feature description des"
-      value: |
-        <hr />
+      description: "This section should provide a detailed description of the feature being requested, including any relevant context or background information."
+      placeholder: |
+        This section should describe the conditions that must be met for this issue to be considered complete.
         1.
     validations:
       required: true
@@ -47,42 +45,32 @@ body:
     id: related_tickets
     attributes:
       label: Related Tickets
-      description: "related"
-      value: |
-        <hr />
-        1.
+      description: "This optional section should list any related tickets, such as bugs that this feature would fix or other features that are related to this one."
+      value: "|
+1."
     validations:
       required: true
 
   - type: textarea
-    id: standard_tasks
+    id: tasks
     attributes:
       label: Tasks
       description: "Please specify who needs to be notified after completion of this ticket, or remove this item if not applicable)"
-      value: |
-        <hr />
-        - Notify XXX
-        - Clean up any AWS resources created during backlog work
-        - DOD Link to checklist: https://utas.atlassian.net/wiki/spaces/IMOS/pages/488898620/Definition+of+Done+DOD
+      value: "|
+- [ ] Notify Notify XXX
+- [ ] Clean up any AWS resources created during backlog work
+- [ ] DOD Link to checklist: https://utas.atlassian.net/wiki/spaces/IMOS/pages/488898620/Definition+of+Done+DOD"
     validations:
       required: true
-
-
-
-  - type: markdown
-    attributes:
-      value: |
-        ## PRs
-        Pull Request (PR) Review Guidelines: https://utas.atlassian.net/wiki/spaces/IMOS/pages/488996931/Pull+Request+PR+Review+Guidelines
 
   - type: textarea
     id: prs
     attributes:
       label: PRs
-      description: "PR links desc"
-      value: |
-        <hr />
-        1.
+      description: "This optional section should list any related Pull Requests"
+      value: "|
+      Pull Request (PR) Review Guidelines: https://utas.atlassian.net/wiki/spaces/IMOS/pages/488996931/Pull+Request+PR+Review+Guidelines
+1."
     validations:
       required: false
 
@@ -90,10 +78,9 @@ body:
     id: dependencies
     attributes:
       label: Dependencies
-      description: "dependencies descr"
-      value: |
-        <hr />
-          1.
+      description: "This optional section should list any dependencies that this feature has on other tickets or features."
+      value: "|
+1."
     validations:
       required: false
 
@@ -101,9 +88,8 @@ body:
     id: demo
     attributes:
       label: Demo
-      description: "Demo desc"
-      value: |
-        <hr />
-        1.
+      description: "This optional section should provide demos of the feature, if applicable."
+      value: "|
+1."
     validations:
       required: false
