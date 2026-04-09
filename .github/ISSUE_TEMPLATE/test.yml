@@ -15,7 +15,7 @@ body:
     attributes:
       label: User Story
       description: |
-        This section should describe the user story for the feature being requested, including who the user is, what they want to do, and why they want to do it.
+        This section should describe the user story for the feature.
         Format: AS A [user persona], I WANT [user's needs], SO THAT [expected outcome].
       placeholder: |
         AS A  xx
