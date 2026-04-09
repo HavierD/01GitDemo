@@ -3,7 +3,7 @@ description: Template for adding a feature
 title: "✨(FEATURE) "
 labels: [ ]
 assignees: [ ]
-projects: [ "HavierD/1"]
+projects: [ "HavierD/2"]
 body:
   - type: markdown
     attributes:
