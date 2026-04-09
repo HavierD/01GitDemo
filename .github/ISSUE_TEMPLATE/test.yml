@@ -58,6 +58,7 @@ body:
       label: Tasks
       description: "Please specify who needs to be notified after completion of this ticket, or remove this item if not applicable)"
       value: |
+        - [ ] ...
         - [ ] Notify Notify XXX
         - [ ] Clean up any AWS resources created during backlog work
         - [ ] DOD Link to checklist: https://utas.atlassian.net/wiki/spaces/IMOS/pages/488898620/Definition+of+Done+DOD
@@ -80,6 +81,7 @@ body:
     attributes:
       label: Dependencies
       description: "This optional section should list any dependencies that this feature has on other tickets or features."
+      placeholder: ""
 
     validations:
       required: false
@@ -89,6 +91,7 @@ body:
     attributes:
       label: Demo
       description: "This optional section should provide demos of the feature, if applicable."
+      placeholder: ""
 
     validations:
       required: false
