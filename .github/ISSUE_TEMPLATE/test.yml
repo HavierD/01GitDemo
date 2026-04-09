@@ -51,9 +51,10 @@ body:
     attributes:
       label: Related Tickets
       description: "This optional section should list any related tickets, such as bugs that this feature would fix or other features that are related to this one."
+      value: "1."
 
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: tasks
