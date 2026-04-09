@@ -14,7 +14,7 @@ body:
     id: user_story
     attributes:
       label: User Story
-      description: "This section should describe the user story for the feature being requested, including the user persona, the user's needs, and the expected outcome."
+      description: "This section should be like this: AS A [user persona], I WANT [user's needs], SO THAT [expected outcome]."
       placeholder: |
         AS A  xx
         I WANT xx
@@ -60,7 +60,7 @@ body:
       description: "Please specify who needs to be notified after completion of this ticket, or remove this item if not applicable)"
       value: |
         - [ ] ...
-        - [ ] Notify Notify XXX
+        - [ ] Notify XXX
         - [ ] Clean up any AWS resources created during backlog work
         - [ ] DOD Link to checklist: https://utas.atlassian.net/wiki/spaces/IMOS/pages/488898620/Definition+of+Done+DOD
     validations:
