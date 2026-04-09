@@ -81,7 +81,7 @@ body:
     attributes:
       label: Dependencies
       description: "This optional section should list any dependencies that this feature has on other tickets or features."
-      placeholder: "1."
+      value: "1."
 
     validations:
       required: false
@@ -91,7 +91,7 @@ body:
     attributes:
       label: Demo
       description: "This optional section should provide demos of the feature, if applicable."
-      placeholder: "1."
+      value: "1."
 
     validations:
       required: false
